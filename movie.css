@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(moviebg.png);
+    font-size: 8pt; 
+    font-family: "Verdana", "Tahoma", sans-serif;
+}
+
+#banner{
+    background-image: url(rancidbannerbg.png);
+    height: 50px; 
+    text-align: center;
+    position:fixed;
+    width:100%; 
+    top:0px; 
+}
+
+#total-reviews{
+    color: white; 
+    font-size: 8pt; 
+}
+
+h1{
+    font-family: tahoma;
+    text-align: center;
+    font-size: 24pt; 
+    font-weight: bold; 
+    text-shadow: 3px 3px #999999;
+    margin-top: 72px; 
+}
+
+.content{
+    width: 800px; 
+    margin-left:auto;
+    margin-right: auto; 
+    border: 4px solid gray;
+    border-radius: 20px; 
+    overflow:hidden;
+}
+
+.review-content{
+    width: 550px; 
+}
+
+#review-head{
+    background-image:url(rottenlargebg.png);
+    font-size:48pt;
+    font-weight: bold; 
+    color: red; 
+    height: 83px; 
+    width: 550px;
+    vertical-align: middle;
+    float: inherit;
+}
+
+.banner{
+    background-image: url(rottenlargebg.png);
+    font-family: tahoma;
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    height: 83px;
+    width: 550px;
+    vertical-align: text-bottom;
+}
+
+.pic{
+    width: 98px;
+    height: 83px;
+    float: left;
+    vertical-align: text-bottom;
+}
+
+.small{
+    font-family: tahoma;
+    font-size: 8pt;
+    color: white;
+    display: inline;  
+}
+
+#rotten-img{
+    vertical-align: bottom;
+}
+
+.icon{
+    padding-right: 5px;
+    float: left;
+}
+
+#column-2{
+    float:right;  
+    margin-right: 11px;
+    width:258.5px; 
+}
+
+#column-1{
+    float:left;  
+    margin-left: 11px;
+    margin-right: 11px;
+    width:258.5px; 
+}
+
+#column-2 p:nth-child(odd), #column-1 p:nth-child(odd){
+    font-size: 8pt;
+    font-weight: bold; 
+    background-color: #E8DC9B; 
+    border: 2px solid gray; 
+    padding: 8px; 
+    border-radius: 10px; 
+    min-height: 25px; 
+}
+
+#column-2 p:nth-child(even), #column-1 p:nth-child(even){
+    font-style: italic; 
+    margin-bottom: 20pt; 
+}
+
+#num-reviews{
+    background-color: #A2B964;
+    padding: 5px; 
+    text-align: center;
+    clear:both;
+    margin-bottom: 0;
+}
+.right{
+    width: 250px;
+    float: right;
+    background-color: #A2B964; 
+    font-size: 8pt; 
+    font-family: "Arial", sans-serif; 
+}
+
+dl{
+    padding-left: 10pt; 
+    padding-right: 10pt;
+}
+dt{
+    font-weight: bold; 
+    margin-top: 10pt;
+}
+ul{
+    list-style-type: none; 
+    padding: 0;
+    margin:0; 
+}
